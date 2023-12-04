@@ -1,0 +1,1 @@
+SELECT user.id, user.tg_user_id, user.username, user.firstname, user.lastname, strftime("%d.%m.%Y %H:%M:%S", datetime(user.first_visit, "unixepoch", "localtime")) as first_visit, strftime("%d.%m.%Y %H:%M:%S", datetime(user.last_visit, "unixepoch", "localtime")) as last_visit, user.last_post_read_id FROM user

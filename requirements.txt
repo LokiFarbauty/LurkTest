@@ -1,0 +1,7 @@
+peewee
+aioconsole
+aiogram
+requests
+pymorphy3
+tqdm
+telegraph
